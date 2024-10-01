@@ -16,6 +16,6 @@ module.exports = {
     },
     output: {
         filename: 'bundle.js',  // Arquivo de saída final
-        path: path.resolve(__dirname, 'dist'),  // Diretório onde o bundle será salvo
+        path: path.resolve(__dirname, 'docs'),  // Diretório onde o bundle será salvo
     },
 };
