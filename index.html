@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios Orion Bootcamp</title>
+</head>
+<body>
+    <h1>Exercícios Typescript</h1>
+    <!-- primeiro exercício -->
+    <section>
+        <h2>Ex1 - Contar Vogais</h2>
+        <form id="formularioVogais">
+            <label for="palavra">Digite uma palavra:</label>
+            <input type="text" id="palavra" placeholder="Digite uma palavra">
+            <button type="submit">Contar</button>
+        </form>
+        <p id="resultado"></p>
+    </section>
+    <!-- Separação entre os Exercícios -->
+    <hr>
+    <!-- segundo exercício -->
+    <section>
+        <h2>Ex2 - Lista de Cientistas</h2>
+        <div  id="listaCientistas"></div>
+
+        <!-- formulario busca bio -->
+        <form id="bioForm">
+            <label for="id">Digite o ID para ver a BIO:</label>
+            <input type="number" id="id" placeholder="Digite o ID">
+            <button type="submit">Buscar</button>
+        </form>
+        <p id="listaResultado"></p>
+
+        <!-- formulario remover cientista -->
+        <form id="removeForm">
+            <label for="idRemove">Digite o ID para ver REMOVER:</label>
+            <input type="number" id="idRemove" placeholder="Digite o ID para REMOVER">
+            <button type="submit">Remover</button>
+        </form>
+        <p id="removerResultado"></p>
+
+        <!-- formulario atualizar cientistas -->
+        <form id="atualizaForm">
+            <label for="idAtualizar">Digite o ID:</label>
+            <input type="number" id="idAtualizar" placeholder="Digite o ID">
+            <label for="novoNome">Novo Nome:</label>
+            <input type="text" id="novoNome" placeholder="Novo Nome">
+            <label for="novaBio">Nova Bio:</label>
+            <input type="text" id="novaBio" placeholder="Nova Bio">
+            <button type="submit">Atualizar</button>
+        </form>
+        
+        <p id="atualizaResult"></p>
+    </section>
+
+    <script src="dist/bundle.js"></script>
+</body>
+</html>
